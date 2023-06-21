@@ -14,11 +14,8 @@ const SignUp = () => {
                 <label htmlFor="">Password</label>
                 <input type="password" name='password' placeholder=' password' required />
             </div>
-            <div className="form-control">
-                <label htmlFor="">Confirm Password</label>
-                <input type="password" name='confirm' placeholder=' password' required />
-            </div>
-            <input className='btn-login' type="submit" value="Log In" />
+            
+            <input className='btn-login' type="submit" value="Sign Up" />
             <p><small>Already have an account? <Link to={'/login'}>Log In</Link> </small></p>
         </form>
     </div>
